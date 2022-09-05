@@ -13,7 +13,7 @@ require("dotenv").config()
 const MAINNET_RPC_URL =
     process.env.MAINNET_RPC_URL ||
     process.env.ALCHEMY_MAINNET_RPC_URL ||
-    "https://eth-mainnet.alchemyapi.io/v2/asd"
+    "https://eth-mainnet.alchemyapi.io/v2/<your_key>"
 
 module.exports = {
     defaultNetwork: "hardhat",
