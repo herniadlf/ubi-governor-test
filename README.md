@@ -8,7 +8,7 @@ I've created this repo with a simple script to check if [this proposal](https://
 
 You can see the `scripts/testGovernorTransaction.js` for more details. 
 
-I've pinned the block `15480189` of Ethereum Mainnet so everyone can reproduce the exact test. For other purposes, you may have to change some hardcoded things on the script.
+I've pinned the block `15480189` of Ethereum Mainnet so everyone can reproduce the exact test. For other purposes, you may have to change some hardcoded things on the script and the block itself in `hardhat.config.js`.
 
 ## Usage
 First of all, you'll need to install hardhat (https://hardhat.org/hardhat-runner/docs/getting-started#overview). Then, return to this folder.
